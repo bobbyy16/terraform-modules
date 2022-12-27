@@ -8,3 +8,4 @@
 *.tfvars
 
 .terraform.lock.hcl
+crash.log
