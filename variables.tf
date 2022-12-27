@@ -12,3 +12,4 @@ variable "instance_type" {}
 
 variable "ssh_key" {}
 
+variable "image_name" {}

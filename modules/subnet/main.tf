@@ -4,7 +4,7 @@ resource "aws_subnet" "myapp-subnet" {
   cidr_block = var.subnet_cidr_block
   availability_zone = var.availability_zone
   tags = {
-     Name = "${var.env_prefix}-subent-1"
+     Name = "${var.env_prefix}-subent"
   }
 }
 
